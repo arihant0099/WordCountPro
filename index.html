@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordCountPro - Real-Time Word Counter Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">WordCount<span>Pro</span></a>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="tool-container">
+            <div class="tool-header">
+                <h1>Real-Time Text Analyzer</h1>
+                <p>Instantly count words, characters, sentences, and paragraphs.</p>
+            </div>
+
+            <div class="tool-card">
+                <textarea id="text-input" placeholder="Start typing or paste your text here..." autofocus></textarea>
+            </div>
+
+            <section class="stats-grid">
+                <div class="stat-box" id="word-stat">
+                    <div class="stat-value" data-count="0">0</div>
+                    <div class="stat-title">Words</div>
+                </div>
+
+                <div class="stat-box" id="character-stat">
+                    <div class="stat-value" data-count="0">0</div>
+                    <div class="stat-title">Characters</div>
+                </div>
+
+                <div class="stat-box" id="sentence-stat">
+                    <div class="stat-value" data-count="0">0</div>
+                    <div class="stat-title">Sentences</div>
+                </div>
+
+                <div class="stat-box" id="paragraph-stat">
+                    <div class="stat-value" data-count="0">0</div>
+                    <div class="stat-title">Paragraphs</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        &copy; 2025 WordCountPro. All rights reserved. | MADE with Arihant Jain ❤️.
+    </footer>
+
+    <script src="scripts.js">
+    </script>
+
+</body>
+</html>
